@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "servidornode_desafio8",
+  "description": "Servidor de express que permite almacenar y obtener items dentro de un array de productos almacenado en memoria.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vogeln7/servidorNode_Desafio8.git"
+  },
+  "author": "vn7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vogeln7/servidorNode_Desafio8/issues"
+  },
+  "homepage": "https://github.com/Vogeln7/servidorNode_Desafio8#readme"
+}
