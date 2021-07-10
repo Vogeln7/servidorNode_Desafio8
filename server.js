@@ -1,9 +1,10 @@
+//IMPORTACION
 const express=require('express');
-
 let producto=require('./productos');
-const app=express();
-app.use(express.json())
 
+//INSTANCIAS
+const app=express();
+app.use(express.json());
 const PORT=8080;
 
 app.get('/productos',(req,res)=>{
